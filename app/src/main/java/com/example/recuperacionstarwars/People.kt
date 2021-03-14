@@ -1,7 +1,7 @@
 package com.example.recuperacionstarwars
 
-import com.google.gson.annotations.SerializedName
+class People(
+        var name : String,
+        var specie : String,
 
-data class People (
-    var name: String
 )
